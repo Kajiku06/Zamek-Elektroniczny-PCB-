@@ -1,0 +1,13 @@
+[ESP32] --------- [Moduł RFID RC522]
+ (3.3V)  ------->  (VCC)
+ (GND)   ------->  (GND)
+ (GPIO 22) ----->  (RST)
+ (GPIO 5)  ----->  (SDA/SS)
+ (GPIO 18) ----->  (SCK)
+ (GPIO 23) ----->  (MOSI)
+ (GPIO 19) ----->  (MISO)
+
+[ESP32] --------- [Przekaźnik] --------- [Elektrozamek]
+ (5V)    ------->  (VCC)
+ (GND)   ------->  (GND)
+ (GPIO 15) ----->  (IN)
